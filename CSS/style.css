@@ -1,7 +1,7 @@
 /* CSS Custom Properties */
 
 :root {
-    --clr-main-400: #3BAEED;
+    --clr-main-400: #56a8f5;
     --clr-base-200: #FDF7EB;
 
     --ff-headings-Montserrat: 'Montserrat', sans-serif;
@@ -9,8 +9,8 @@
 
     --fw-Light-300: 300;
     --fw-Regular-400: 400;
-    --fw-Medium-400: 500;
-    --fw-Bold-400: 700;
+    --fw-Medium-500: 500;
+    --fw-Bold-700: 700;
 }
 
 /* CSS reset */
@@ -42,14 +42,10 @@ p, h1, h2, h3, h4, h5, h6 {
 
 body {
     background-color: var(--clr-main-400);
-    font-family: var(--ff-headings-Montserrat);
     font-size: 16px;
+    font-family: var(--ff-headings-Montserrat);
     line-height: 1.5;
 }
-
-/* id selectors */
-
-/* class selectors */
 
 .container {
     max-width: 1200px;
@@ -57,11 +53,29 @@ body {
     margin: 0 auto;
 }
 
+.sec-padd {
+    padding: 2em 0;
+}
+
+.m-clr {
+    background-color: #6AAFF5;
+    border-radius: 30px 30px 0 0;
+}
+
+/* id selectors */
+
+
+/* class selectors */
+
+
+
+/* Navbar Section */
+
 .navbar {
     display: flex;
-    gap: 1em;
+    align-items: center;
     justify-content: space-between;
-    padding-top: 1em;
+    margin: 2em 0;
     list-style: none;
 }
 
@@ -72,7 +86,28 @@ body {
 }
 
 .nav-link {
+    color: var(--clr-base-200);
     text-decoration: none;
+    margin-left: 1em;
+}
+
+.nav-link--btn {
+    background-color: var(--clr-base-200);
+    border-radius: 15px;
+    color: var(--clr-main-400);
+    font-size: 15px;
+    font-weight: var(--fw-Bold-700);
+    padding: 0.5em 1em;
+}
+
+/* Hero section */
+
+.hero__title {
+    font-size: 3rem;
+    font-family: var(--ff-body-Outfit);
+}
+
+.hero__text {
     color: var(--clr-base-200);
 }
 
