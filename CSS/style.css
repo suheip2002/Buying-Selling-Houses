@@ -1,0 +1,41 @@
+/* CSS Custom Properties */
+
+:root {
+    --clr-main-400: #3BAEED;
+    --clr-base-200: #FDF7EB;
+
+    --ff-headings-Montserrat: 'Montserrat', sans-serif;
+    --ff-body-Outfit: 'Outfit', sans-serif;
+
+    --fw-Light-300: 300;
+    --fw-Regular-400: 400;
+    --fw-Medium-400: 500;
+    --fw-Bold-400: 700;
+}
+
+/* CSS reset */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+html, body {
+    height: 100%;
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+/* General styling */
