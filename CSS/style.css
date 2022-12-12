@@ -73,6 +73,7 @@ body {
 
 .nav-link {
     text-decoration: none;
+    color: var(--clr-base-200);
 }
 
 /* media query for large creen size*/
