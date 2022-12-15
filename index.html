@@ -4,44 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selling / Buying Houses</title>
 
                            <!-- Google Fonts Link -->
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Outfit:wght@500;700&display=swap" rel="stylesheet">
-    <!-- bootstrap css link -->
-    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
-    <link rel="stylesheet" href="cSS/style.css">
 
-    <title>Selling / Buying Houses</title>
+                             <!-- bootstrap and css links -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="CSS/style.css">
+    
+                             <!-- bootstrap JS link -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 </head>
 <body>
-    
-    <header>
+
+    <section id="hero">
         
-        <nav class="navbar">
-            <a href="#">
-                <img class="nav__logo" src="images/logo.svg" alt="a logo image">
-            </a>
-            <ul class="nav-list">
-                <li class="nav-item  "><a href="#" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Login</a></li>
-                <li class="nav-item"><a href="#" class="nav-link nav-link--btn">Signup</a></li>
-            </ul>
-        </nav>
-    
-    </header>
+        <div class="container">
 
-    <section id="hero" class="sec-padd m-clr">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">REAL STATE</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
 
-    <div class="container">
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                  
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Signup</a>
+                      </li>
+                  </ul>
+                 
+                </div>
+              </nav>
+        </div>
 
-        <section id="hero" class="sec-padd m-clr">
-            <h1 class="hero__title">Easy way to find a perfect property</h1>
-            <p class="hero__text">we provide a complete service for the sale, purchase and rental of real estate.</p>
-            <img src="" alt="">
-        </section>
-        
-    </div>
+    </section>
 
 </body>
 </html>
