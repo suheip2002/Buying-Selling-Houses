@@ -50,3 +50,8 @@ body {
     font-family: var(--ff-headings-Montserrat);
     line-height: 1.5;
 }
+
+/* Our Services */
+.bcard{
+    border-radius: 20px;
+}
